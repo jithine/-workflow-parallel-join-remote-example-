@@ -4,4 +4,10 @@ jobs:
         requires: [~commit, ~pr, ~sd@11:main]
         image: node:12
         steps:
-            - echo: echo $SD_PIPELINE_ID
+            - echo: echo $SD_JOB_ID
+    main-2:
+        requires: [~commit, ~pr, ~sd@11:main]
+        image: node:12
+        steps:
+            - echo: echo $SD_JOB_ID
+
