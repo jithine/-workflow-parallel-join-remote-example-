@@ -9,5 +9,7 @@ jobs:
         requires: [~commit, ~pr, ~sd@11:main]
         image: node:12
         steps:
-            - echo: echo $SD_JOB_ID
+            - echo: |
+                echo $SD_JOB_ID
+                sleep 5
 
