@@ -1,0 +1,7 @@
+
+jobs:
+    main:
+        requires: [~commit, ~pr, ~sd@11:main]
+        image: node:12
+        steps:
+            - echo: echo $SD_PIPELINE_ID
