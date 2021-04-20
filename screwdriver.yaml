@@ -5,7 +5,7 @@ jobs:
         image: node:12
         steps:
             - echo: echo $SD_JOB_ID
-            - sleep: sleep 100
+            - sleep: sleep 300
     main-2:
         requires: [~commit, ~pr, ~sd@11:main]
         image: node:12
