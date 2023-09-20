@@ -12,5 +12,5 @@ jobs:
         steps:
             - echo: |
                 echo $SD_JOB_ID
-                sleep 5
+                sleep 60
 
