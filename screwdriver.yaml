@@ -5,5 +5,5 @@ jobs:
         image: node:12
         steps:
             - echo: echo $SD_JOB_ID
-            - sleep: sleep 100
+            - sleep: sleep 15
 
